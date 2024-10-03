@@ -49,8 +49,6 @@ Bloques: 5
 dosis <- c(0, 50, 100, 150)
 variedad <- c("canchan", "peruanita")
 
-ds <- agricolae::design.ab()
-
 trt<-c(4, 2) # factorial 4x2
 outdesign <-design.ab(trt = trt, r=5)
 
